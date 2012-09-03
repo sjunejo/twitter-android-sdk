@@ -6,7 +6,8 @@ public class DialogError extends Throwable {
 	
 	private int mErrorCode;
 	private String mFailingUrl;
-	
+	// Okay, this is just a test to see if this actually comes up.
+	// SJUNEJO WAS HERE !!!
 	public DialogError(String message, int errorCode, String failingUrl) {
 		super(message);
 		mErrorCode = errorCode;
