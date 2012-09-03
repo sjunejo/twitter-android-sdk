@@ -14,6 +14,7 @@ public class DialogError extends Throwable {
 		mFailingUrl = failingUrl;
 	}
 
+	// THIS IS ENTIRELY DIFFERENT TO MASTER BRANCH DURRR 
 	public int getErrorCode() {
 		return mErrorCode;
 	}
